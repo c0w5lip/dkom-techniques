@@ -35,7 +35,7 @@ NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath) 
 
     DbgPrint("[+] HideProcess driver: loaded.\n");
 
-    HideProcess(8892);
+    HideProcess(1337); // pID
 
     return STATUS_SUCCESS;
 }
